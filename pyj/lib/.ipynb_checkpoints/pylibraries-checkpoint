@@ -1,0 +1,22 @@
+Python Libraries
+PyCaret
+Lazy Predict
+SHAP
+missingno
+prophet
+parallel_pandas
+featuretools
+lazypredict
+mlxtend
+sweetvis
+skorch
+faiss
+statsmodel
+pandas_profiling
+category_encoders
+duckdb
+pandas_ml
+numpexpr
+csvkit
+icecream
+pyforest
