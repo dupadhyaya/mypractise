@@ -1,10 +1,18 @@
-<!---html tables with css classes--->
+<!---html tables with css styling classes--->
+<style>
+  .tbl { border-collapse: collapse; width:300px; }
+  .tbl th, .tbl td { padding: 5px; border: solid 2px #777; }
+  .tbl th { background-color: lightblue; }
+  .tbl-separate { border-collapse: separate; border-spacing: 5px;}
+</style>
+
 <html>
   <a href='https://github.com/dupadhyaya/mypractise/blob/main/data/student3.html'>Link</a>
   <body>
-    <h1>Student List</h1>
+    <h1>Student List using CSS</h1>
     <p> This is student List of University</p>
-  <table class='w3-table w3-striped w4-borderd w3-centered'>
+  
+  <table id='duTable1', class='tbl'>
   <tr>
     <th>rollNo</th>
     <th>name</th>
