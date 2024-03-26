@@ -63,3 +63,7 @@ xml_path(xml_find_all(x2, './/h2'))
 
 #selectr-----
 library(selectr)
+css_to_xpath(".testclass")
+css_to_xpath("#testid", prefix = "")
+css_to_xpath("#testid .testclass")
+css_to_xpath(":checked", translator = "html")
